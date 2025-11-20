@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
 import { tasksAPI, usersAPI } from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
-import Navbar from '../components/common/Navbar';
-import Sidebar from '../components/common/Sidebar';
-import KanbanColumn from '../components/kanban/KanbanColumn';
-import CreateTaskModal from '../components/kanban/CreateTaskModal';
-import Loading from '../components/common/Loading';
+import Navbar from '../Components/common/Navbar';
+import Sidebar from '../Components/common/Sidebar';
+import KanbanColumn from '../Components/kanban/KanbanColumn';
+import CreateTaskModal from '../Components/kanban/CreateTaskModal';
+import Loading from '../Components/common/Loading';
 import toast from 'react-hot-toast';
 
 function KanbanBoard() {

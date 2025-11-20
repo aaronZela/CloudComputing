@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { usersAPI, tasksAPI } from '../services/api';
-import Navbar from '../components/common/Navbar';
-import Sidebar from '../components/common/Sidebar';
-import MetricsCard from '../components/dashboard/MetricsCard';
-import TasksChart from '../components/dashboard/TasksChart';
-import Loading from '../components/common/Loading';
+import Navbar from '../Components/common/Navbar';
+import Sidebar from '../Components/common/Sidebar';
+import MetricsCard from '../Components/dashboard/MetricsCard';
+import TasksChart from '../Components/dashboard/TasksChart';
+import Loading from '../Components/common/Loading';
 import toast from 'react-hot-toast';
 
 function Dashboard() {

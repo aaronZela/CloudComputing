@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import toast from 'react-hot-toast';
-import LoginForm from '../components/auth/LoginForm';
+import LoginForm from '../Components/auth/LoginForm';
 
 function Login() {
   const [loading, setLoading] = useState(false);

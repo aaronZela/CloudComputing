@@ -4,8 +4,8 @@ import { tasksAPI, usersAPI } from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
 import Navbar from '../Components/common/Navbar';
 import Sidebar from '../Components/common/Sidebar';
-import KanbanColumn from '../Components/kanban/KanbanColumn';
-import CreateTaskModal from '../Components/kanban/CreateTaskModal';
+import KanbanColumn from '../Components/Kanban/KanbanColumn';
+import CreateTaskModal from '../Components/Kanban/CreateTaskModal';
 import Loading from '../Components/common/Loading';
 import toast from 'react-hot-toast';
 

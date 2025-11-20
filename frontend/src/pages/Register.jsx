@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import toast from 'react-hot-toast';
-import RegisterForm from '../components/auth/RegisterForm';
+import RegisterForm from '../Components/auth/RegisterForm';
 
 function Register() {
   const [loading, setLoading] = useState(false);
